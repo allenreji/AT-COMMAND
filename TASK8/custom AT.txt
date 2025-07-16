@@ -1,0 +1,28 @@
+For this i have chosen C10GS MODULE  from cavli
+
+and these are the 3 custom AT commands that i have thought of it making its function more reliable
+
+AT+CAVSTATUS? :-Get a quick summary of SIM status, network signal, and battery level.
+
+AT+CAVSTATUS?
++CAVSTATUS: SIM READY, LTE-M, RSSI -72dBm, BATTERY 89%
+OK
+
+AT+CAVGPSFIX?:- : Get last known GPS location and fix status (useful for asset tracking).
+
+AT+CAVGPSFIX?
++CAVGPSFIX: 12.9716N, 77.5946E, FIX OK
+OK
+
+AT+CAVHUBSYNC:-Manually force sync to Cavli Hubble cloud for diagnostics or logs.
+
+AT+CAVHUBSYNC
++CAVHUBSYNC: Connecting to Hubble...
++CAVHUBSYNC: Sync complete
+OK
+
+AT+CAVTEMP?:-Read internal temperature sensor of the module (for health monitoring)
+
+AT+CAVTEMP?
++CAVTEMP: 34.5
+OK
