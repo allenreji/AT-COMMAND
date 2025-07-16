@@ -1,0 +1,23 @@
+AT+CGDCONT is an AT command used to define a PDP (Packet Data Protocol) context, which tells the modem how to connect to the mobile data network.
+
+An APN (Access Point Name) is like a gateway that your modem uses to connect to the internet via your mobile carrier.
+
+Examples of APNs:
+
+Jio: jionet
+
+Airtel: airtelgprs.com
+
+Vodafone Idea: www
+
+BSNL: bsnlnet
+
+Without the correct APN, your modem cannot access mobile data.
+
+AT+CGDCONT=<cid>,<PDP_type>,<APN>[,<PDP_addr>[,<d_comp>,<h_comp>]]
+
+AT+CGDCONT=1,"IP","jionet"
+
+Tells the modem to use context ID 1, PDP type IP, and APN jionet.
+
+This is typically required before dialing a data connection using ATD*99#.
