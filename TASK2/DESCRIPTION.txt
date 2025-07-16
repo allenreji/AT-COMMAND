@@ -1,0 +1,11 @@
+Done using 
+
+AT+CSQ
+
+AT+CPIN
+
+AT+COPS
+
+numeric value obtained is RSSI which is 21 to get signal strength in dBm
+
+-113+(RSSI*2)=-73dBm
