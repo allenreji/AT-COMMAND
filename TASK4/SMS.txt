@@ -1,0 +1,3 @@
+Tested commands for : AT+CMGF=1, AT+CMGS, AT+CMGR
+
+able to send a message but can’t show it has been received or the messages that have been sent due to the limitations of Celer SMS emulator 
